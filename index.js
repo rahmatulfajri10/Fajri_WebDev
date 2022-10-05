@@ -18,6 +18,6 @@ databaseConfig.connect((err) => {
 
 app.use(express.Router());
 app.use('/', routes)
-app.listen(5000, () => {
-    console.log(`Server berjalan di port 5000`)
+app.listen(5001, () => {
+    console.log(`Server berjalan di port 5001`)
 })
